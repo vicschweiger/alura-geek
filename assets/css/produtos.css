@@ -1,0 +1,128 @@
+.barra__titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao__ver-produto {
+    color: var(--azul);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botao__ver-tudo {
+    color: var(--azul);
+    font-family: var(--raleway);
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-right: 1.75rem;
+}
+
+.botao__ver-tudo--seta {
+    background-image: url(/assets/img/seta-azul.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.display {
+    display: flex;
+    gap: 1rem;
+}
+
+.produtos {
+    background-color: var(--branco-gelo);
+}
+
+.produto__imagem {
+    padding-bottom: 0.75rem;
+    height: 11rem;
+    width: 10rem;
+}
+
+.produto__preco {
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.45rem 0;
+}
+
+.produto__titulo {
+    font-family: var(--raleway);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.vitrine__titulo {
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 0) {
+    .barra__titulo {
+        padding: 1rem 0;
+    }
+    .card {
+        height: 15.8rem;
+        width: 9.75rem;
+    }
+    .card--hide {
+        display: none;
+    }
+    .display {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+    .vitrine {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .barra__titulo {
+        padding: 1rem;
+    }
+    .card {
+        height: 15.8rem;
+        width: 10.3rem;
+    }
+    .card--hide {
+        display: none;
+    }
+    .display {
+        flex-direction: row ;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+    .vitrine {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .barra__titulo {
+        padding-bottom: 1rem;
+    }
+    .card {
+        height: 15.8rem;
+        width: 11rem;
+    }
+    .card--hide {
+        display: inline;
+    }
+    .display {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .vitrine {
+        padding: 4rem 8rem;
+    }
+}

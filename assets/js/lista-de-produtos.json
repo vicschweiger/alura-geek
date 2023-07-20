@@ -1,0 +1,148 @@
+{
+    "produto":  [
+        {
+            "titulo": "Caneca Star Wars",
+            "preco": 29.9,
+            "descricao": "",
+            "imagem": "file:./assets/img/star-wars/1.png",
+            "alt": "Foto do produto",
+            "categoria": "star-wars"
+        },
+        {
+            "titulo": "Capacete",
+            "preco": 39.9,
+            "descricao": "",
+            "imagem": "file:./assets/img/star-wars/2.png",
+            "alt": "Foto do produto",
+            "categoria": "star-wars"
+        },
+        {
+            "titulo": "Boneco",
+            "preco": 49.9,
+            "descricao": "",
+            "imagem": "./assets/img/star-wars/3.png",
+            "alt": "Foto do produto",
+            "categoria": "star-wars"
+        },
+        {
+            "titulo": "Boneco",
+            "preco": 45.9,
+            "descricao": "",
+            "imagem": "./assets/img/star-wars/4.png",
+            "alt": "Foto do produto",
+            "categoria": "star-wars"
+        },
+        {
+            "titulo": "Pelúcia",
+            "preco": 59.9,
+            "descricao": "",
+            "imagem": "./assets/img/star-wars/5.png",
+            "alt": "Foto do produto",
+            "categoria": "star-wars"
+        },
+        {
+            "titulo": "Figura",
+            "preco": 119.9,
+            "descricao": "",
+            "imagem": "./assets/img/star-wars/6.png",
+            "alt": "Foto do produto",
+            "categoria": "star-wars"
+        },
+        {
+            "titulo": "Controle Xbox",
+            "preco": 29.9,
+            "descricao": "",
+            "imagem": "file:./assets/img/consoles/1.png",
+            "alt": "Foto do produto",
+            "categoria": "consoles"
+        },
+        {
+            "titulo": "Console PlayStation 5",
+            "preco": 39.9,
+            "descricao": "",
+            "imagem": "file:./assets/img/consoles/2.png",
+            "alt": "Foto do produto",
+            "categoria": "consoles"
+        },
+        {
+            "titulo": "Console Nintendo 64",
+            "preco": 49.9,
+            "descricao": "",
+            "imagem": "./assets/img/consoles/3.png",
+            "alt": "Foto do produto",
+            "categoria": "consoles"
+        },
+        {
+            "titulo": "Controle Nintendo Switch",
+            "preco": 45.9,
+            "descricao": "",
+            "imagem": "./assets/img/consoles/4.png",
+            "alt": "Foto do produto",
+            "categoria": "consoles"
+        },
+        {
+            "titulo": "Console Xbobx",
+            "preco": 59.9,
+            "descricao": "",
+            "imagem": "./assets/img/consoles/5.png",
+            "alt": "Foto do produto",
+            "categoria": "consoles"
+        },
+        {
+            "titulo": "Game Boy Color",
+            "preco": 119.9,
+            "descricao": "",
+            "imagem": "./assets/img/consoles/6.png",
+            "alt": "Foto do produto",
+            "categoria": "consoles"
+        },
+        {
+            "titulo": "Camisa Atari",
+            "preco": 29.9,
+            "descricao": "",
+            "imagem": "file:./assets/img/diversos/1.png",
+            "alt": "Foto do produto",
+            "categoria": "diversos"
+        },
+        {
+            "titulo": "Camisa SNES",
+            "preco": 39.9,
+            "descricao": "",
+            "imagem": "file:./assets/img/diversos/2.png",
+            "alt": "Foto do produto",
+            "categoria": "diversos"
+        },
+        {
+            "titulo": "Boneco Sonic",
+            "preco": 49.9,
+            "descricao": "",
+            "imagem": "./assets/img/diversos/3.png",
+            "alt": "Foto do produto",
+            "categoria": "diversos"
+        },
+        {
+            "titulo": "Radio Relógio Retro",
+            "preco": 45.9,
+            "descricao": "",
+            "imagem": "./assets/img/diversos/4.png",
+            "alt": "Foto do produto",
+            "categoria": "diversos"
+        },
+        {
+            "titulo": "Oculus Quest 3",
+            "preco": 2359.9,
+            "descricao": "",
+            "imagem": "./assets/img/diversos/5.png",
+            "alt": "Foto do produto",
+            "categoria": "diversos"
+        },
+        {
+            "titulo": "Pelúcia Pikachu",
+            "preco": 119.9,
+            "descricao": "",
+            "imagem": "./assets/img/diversos/6.png",
+            "alt": "Foto do produto",
+            "categoria": "diversos"
+        }
+    ]
+}

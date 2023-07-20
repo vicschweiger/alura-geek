@@ -1,0 +1,109 @@
+.produto-principal {
+    display: flex;
+    gap: 1rem;
+}
+
+.produto-principal__box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.produto-principal__descricao {
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.produto-principal__preco {
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.produto-principal__titulo {
+    color: var(--preto);
+    font-family: var(--raleway);
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.produtos-similares {
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--raleway);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    gap: 1rem;
+    line-height: normal;
+}
+
+.produto-xyz {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem 8rem;
+}
+
+@media screen and (min-width: 0) {
+    .produto-principal {
+        align-items: none;
+        flex-direction: column;
+    }
+    .produto-principal__box {
+        padding: 1rem;
+        width: 100%;
+    }
+    .produto-principal__imagem {
+        size-adjust: cover;
+        height: 50vh;
+        width: 100vw;
+    }
+    .produto-xyz {
+       padding: 4rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .produto-principal {
+        align-items: center;
+        flex-direction: row;
+    }
+    .produto-principal__box {
+        padding: 0rem;
+        width: 50%;
+    }
+    .produto-principal__imagem {
+        width: 50%;
+    }
+    .produto-xyz {
+       padding: 4rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .produto-principal {
+        align-items: center;
+        flex-direction: row;
+    }
+    .produto-principal__box {
+        padding: 0rem;
+        width: 50%;
+    }
+    .produto-principal__imagem {
+        width: 50%;
+    }
+    .produto-xyz {
+       padding: 4rem 8rem;
+    }
+}

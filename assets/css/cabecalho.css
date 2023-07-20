@@ -1,0 +1,79 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho img {
+    padding-right: 2rem;
+}
+
+.barra-de-pesquisa {
+    background-color: var(--branco-gelo);
+    background-position: right;
+    border: none;
+    border-radius: 1.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.barra-de-pesquisa--icone {
+    background-image: url(../img/Icone.svg);
+    background-repeat: no-repeat;
+}
+
+.botao__login {
+    color: var(--azul);
+    background-color: var(--branco);
+    border: solid 1px var(--azul);
+    font-family: var(--raleway);
+    padding: 1rem 4rem;
+    text-decoration: none;
+}
+
+.centraliza {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho{
+        padding: 1rem;
+    }
+    .cabecalho img {
+        padding-right: 0;
+    }
+    .barra-de-pesquisa {
+        display: none;
+    }
+    .lupa {
+        display: inline;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        padding: 1rem 2rem;
+    }
+    .barra-de-pesquisa {
+        display: inline;
+        width: 17rem;
+    }
+    .lupa {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .cabecalho{
+        padding: 2rem 8rem;
+    }
+    .barra-de-pesquisa {
+        display: inline;
+        width: 24rem;
+    }
+    .lupa {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+:root {
+    --azul: #2A7AE4;
+    --branco: #ffffff;
+    --branco-gelo: #EAF2FD;
+    --cinza-claro: #d3d3d3;
+    --cinzinha: #A2A2A2;
+    --preto: #464646;
+
+    --raleway: 'Raleway', sans-serif;
+}
+
+.esconder{
+    display: none;
+}
+
+.link {
+    font-family: var(--raleway);
+    text-decoration: none;
+}

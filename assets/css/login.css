@@ -1,0 +1,54 @@
+.form__campo {
+    background: var(--branco);
+    border: none;
+    border-bottom: 1px solid var(--cinzinha);
+    width: 26.4375rem;
+    height: 3.94544rem;
+    border-radius: 0.25rem;
+}
+
+.form__campo::placeholder {
+    color: var(--cinzinha);
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    padding: 1rem;
+}
+.form__campo:hover {
+    border: 1px solid var(--cinzinha);
+}
+
+.form__botao {
+    align-self: center;
+    color: var(--branco);
+    background-color: var(--azul);
+    font-family: var(--raleway);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 1rem 11.5rem;
+}
+
+.form__titulo {
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login {
+    padding: 5.75rem 0rem;
+}
+
+.login__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Geek</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;700&display=swap" rel="stylesheet">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/base.css" rel="stylesheet">
+        <link href="./assets/css/cabecalho.css" rel="stylesheet">
+        <link href="./assets/css/banner.css" rel="stylesheet">
+        <link href="./assets/css/adiciona-produto.css" rel="stylesheet">
+        <link href="./assets/css/fale-conosco.css" rel="stylesheet">
+        <link href="./assets/css/rodape.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="centraliza">
+                <a href="./home.html"><img src="./assets/img/Logo.png" alt="Logo de Alura Geek"></a>
+                <input type="search" placeholder="O que deseja encontrar?" class="barra-de-pesquisa barra-de-pesquisa--icone mostra">
+            </div>
+            <button class="botao__menu-adm">Menu administrador</button>
+            <img src="./assets/img/Icone.svg" alt="Lupa de busca"class="lupa">
+        </header>
+        <main>
+
+
+            <section class="adiciona-produto">
+                <form action="" class="adicionar-produtos">
+                    <h2 class="adc__titulo">Adicionar novo produto</h2>
+                    <div class="adc__campo">
+                        <label for="" class="adc__label">URL da imagem</label>
+                        <input type="text" class="adc__dados">
+                    </div>
+                    <div class="adc__campo">
+                        <label for="" class="adc__label">Categoria</label>
+                        <input type="text" class="adc__dados" placeholder="Consoles">
+                    </div>
+                    <div class="adc__campo">
+                        <label for="" class="adc__label">Nome do produto</label>
+                        <input type="text" class="adc__dados" placeholder="Produto XYZ">
+                    </div>
+                    <div class="adc__campo">
+                        <label for="" class="adc__label">Preço do produto</label>
+                        <input type="text" class="adc__dados" placeholder="R$ 60.00">
+                    </div>
+                    <div class="adc__campo adc__campo--grow">
+                        <label for="" class="adc__label">Descrição do produto</label>
+                        <input type="text" class="adc__dados">
+                    </div>
+                    <a href="" class="adc__botao">Adicionar produto</a>
+                </form>
+            </section>
+
+
+            <section class="fale-conosco">
+                <img src="./assets/img/Logo.png" alt="Logo de Alura Geek">
+                <nav>
+                    <ul class="lista-de-navegacao">
+                        <li class="lista-de-navegacao__links">
+                            <a href="" class="lista-de-navegacao__links">
+                                Quem somos nós</a>
+                        </li>
+                        <li>
+                            <a href="" class="lista-de-navegacao__links">
+                                Política de privacidade</a>
+                        </li>
+                        <li>
+                            <a href="" class="lista-de-navegacao__links">
+                                Programa fidelidade</a>
+                        </li>
+                        <li>
+                            <a href="" class="lista-de-navegacao__links">
+                                Nossas lojas</a>
+                        </li>
+                        <li>
+                            <a href="" class="lista-de-navegacao__links">
+                                Quero ser franqueado</a>
+                        </li>
+                        <li>
+                            <a href="" class="lista-de-navegacao__links">
+                                Anuncie aqui</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form action="" class="formulario">
+                    <p class="formulario__titulo">Fale conosco</p>
+                    <div class="campo-nome">
+                        <label class="label" for="name">Nome</label>
+                        <input type="text" class="formulario__nome" placeholder="André Lisboa">
+                    </div>
+                    <div class="campo-msg">
+                        <label class="label-msg" for="name">Escreva sua mensagem</label>
+                        <input type="text" class="formulario__msg">  
+                    </div>
+                    <button class="botao__msg">
+                        Enviar mensagem
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="rodape__dados">
+                <p>Desenvolvido por Victoria Schweiger</p>
+                <p>2023 </p>
+            </div>
+        </footer>
+    </body>
+</html>
